@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <h1>Welcome to Bru's TicTacToe</h1><button class="reset-btn">Restart Game</button>
+    <h2 class="score">Score</h2>
+    <p class="score scorep">Player 1<span class="ply1 ply">0</span>:<span class="ply2 ply">0</span>Player 2</p>
+    <p class="whooseturn">Player's 1 turn</p>
+<div class="container">
+    <div class="area" id="1"></div>
+    <div class="area" id="2"></div>
+    <div class="area" id="3"></div>
+    <div class="area" id="4"></div>
+    <div class="area" id="5"></div>
+    <div class="area" id="6"></div>
+    <div class="area" id="7"></div>
+    <div class="area" id="8"></div>
+    <div class="area" id="9"></div>
+</div>
+
+<div class="p1-win"><p>Player 1 wins!</p><p><button class="btn">OK</button></p></div>
+<div class="p2-win"><p>Player 2 wins!</p><p><button class="btn">OK</button></p></div>
+<div class="taken"><p>This place has already been taken! Please choose another one.</p><p><button class="takenbtn">OK</button></p></div>
+<div class="full"><p>The board is full. That means a TIE!</p><p><button class="btn">OK</button></p></div>
+<div class="intro">
+    <h2>Player 1, which mark do you choose</h2>
+    <p><span class="x">X</span>OR <span class="o">O</span></p>
+</div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
